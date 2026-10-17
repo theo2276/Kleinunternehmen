@@ -2,13 +2,20 @@
 
 Du übernimmst nach der technischen Basis den kreativen Entwurf.
 
+## Framer-Stand (17.10.2026)
+
+Eigenständiges, unveröffentlichtes Projekt: https://framer.com/projects/MusikerF-rMusiker--Oqs6vlqumpMTjpEtJI2w-9UllU
+
+Die tatsächliche Startseite liegt im Framer-Canvas: Navigation, Einstieg, vier Vermittlungsbereiche, Schwarzes Brett, Über uns, Kontakt/Anfrage und Footer. Desktop-, Tablet- und Handy-Breakpoints sind angelegt. Die Bereiche sind native Framer-Frames und Stacks; nur das sichere Anfrageformular ist als Code-Komponente eingebunden. Die Navigation und der Datenschutz-Link wurden in der Vorschau getestet. Ein vollständig ausgefülltes Testformular zeigte ohne Endpunkt „Es wurden keine Daten übertragen“.
+
+Impressum und Datenschutz sind derzeit nur gekennzeichnete redaktionelle Entwürfe. Das Schwarze Brett ist ein Einstieg ohne öffentliche Einträge oder Moderationssystem. Diese Punkte müssen vor dem Livegang geklärt werden. Es wurde nichts veröffentlicht.
+
 ## Was bereits feststeht
 
-Die vorhandenen Code Components lösen nur Struktur und Funktion:
+Die vorhandenen Code Components im Repo dokumentieren Struktur und Funktion:
 
-- Navigation
-- Kernbereiche / Service-Einstiege
-- Anfrageformular
+- Navigation und Kernbereiche sind inzwischen nativ im Canvas umgesetzt; die entsprechenden TSX-Dateien bleiben Referenzen.
+- `MFMInquiryForm.tsx` ist im Canvas eingebunden.
 
 Sie sind nicht als visuelle Vorlage gedacht.
 

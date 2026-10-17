@@ -53,7 +53,8 @@ export default function MFMInquiryForm(props: Props) {
 
     const safeEndpoint = endpoint.trim()
     const endpointAllowed =
-        safeEndpoint.startsWith("/") || /^https:\/\//i.test(safeEndpoint)
+        (safeEndpoint.startsWith("/") && !safeEndpoint.startsWith("//")) ||
+        /^https:\/\//i.test(safeEndpoint)
 
     async function submit(event: FormEvent<HTMLFormElement>) {
         event.preventDefault()
@@ -340,7 +341,7 @@ export default function MFMInquiryForm(props: Props) {
 
 MFMInquiryForm.defaultProps = {
     title: "Anfrage stellen",
-    intro: "Beschreibe kurz, was du suchst oder anbieten möchtest. Die technische Basis trennt Formularlogik und Gestaltung, damit der Bereich später frei gestaltet werden kann.",
+    intro: "Beschreibe kurz, was du suchst oder anbieten möchtest. Wir prüfen, an wen deine Anfrage am besten weitergeleitet werden kann.",
     endpoint: "",
     buttonText: "Anfrage senden",
     successText: "Danke. Deine Anfrage wurde übermittelt.",

@@ -1,6 +1,10 @@
 # MusikerFürMusiker – technischer Neubau
 
-Status: technische Basis, noch kein finales Design.
+Status: native Framer-Struktur im unveröffentlichten Projekt aufgebaut; noch kein finales Design.
+
+Framer-Projekt: https://framer.com/projects/MusikerF-rMusiker--Oqs6vlqumpMTjpEtJI2w-9UllU
+
+Die Startseite enthält Navigation, Einstieg, vier Vermittlungsbereiche, Schwarzes Brett, Über uns und Kontakt/Anfrage. Desktop (1200 px), Tablet (810 px) und Handy (390 px) sind im Canvas angelegt. Impressum und Datenschutz sind ausdrücklich redaktionelle Entwürfe. Das Formular ist als einzige Code-Komponente im Canvas eingebunden; ohne konfigurierten POST-Endpunkt verschickt es keine Daten.
 
 ## Ziel
 
@@ -25,12 +29,12 @@ MusikerFürMusiker wird als eigenes Framer-Projekt neu aufgebaut. Die technische
 
 ## Noch bewusst offen
 
-- finales Seitenlayout
+- finale Seitenkomposition und visuelle Gestaltung
 - Logo-/Markenaufarbeitung
 - Typografie
 - Farbsystem
 - Bildwelt
 - Animationen/Transitions
-- endgültige Seitenzahl und CMS-Struktur
+- endgültige Seitenzahl und CMS-Struktur; das Schwarze Brett hat derzeit keine öffentlichen Einträge
 - Formular-Backend / Moderationsworkflow
 - Umsetzung des Schwarzen Bretts bzw. Forums
