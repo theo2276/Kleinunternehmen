@@ -8,9 +8,9 @@ MusikerFürMusiker ist ein eigenständiges Projekt im Umfeld von Kreuzberg on Ku
 
 Der Neubau soll nicht die Kreuzberg-on-KulTour-Seite duplizieren. MusikerFürMusiker braucht eine eigene, deutlich auf Vermittlung und Austausch ausgerichtete Informationsarchitektur.
 
-## 2. Technisches Ziel dieser Phase
+## 2. Ziel dieser Phase (aktualisiert nach Nutzerfeedback)
 
-Noch kein fertiges Design bauen. Zuerst eine belastbare Framer-Basis schaffen:
+Eine vollständige, farbige Grundfassung direkt im Framer-Canvas bauen. Der Nutzer möchte ausdrücklich bereits ein Grunddesign und alle wichtigen Seiten; spätere kreative Überarbeitungen sind möglich. Die Gestaltung orientiert sich am vorhandenen orangefarbenen MFM-Zeichen und an recherchierten typografischen Musik- und Plakatbeispielen, ohne fremde Layouts zu kopieren. Technisch soll die Website zugleich:
 
 - responsive Navigation
 - klare funktionale Einstiege in die Vermittlungsbereiche
@@ -32,17 +32,9 @@ Für die technische Basis werden nur belastbare Kernfunktionen abgebildet:
 
 Diese vier Bereiche sind zunächst Einstiegspunkte. Die endgültige Unterteilung entscheidet der spätere Inhalts-/Designprozess.
 
-## 4. Vorläufige Seitenlogik
+## 4. Umgesetzte Seitenlogik
 
-Noch keine starre Seitenzahl. Technisch sollte der Framer-Neubau mindestens folgende Ziele unterstützen:
-
-- Start
-- Vermittlung / Bereiche
-- Anfrage
-- Schwarzes Brett bzw. Austausch
-- Über MusikerFürMusiker
-- Kontakt
-- Impressum / Datenschutz
+Im unveröffentlichten Framer-Projekt sind 14 Seiten angelegt: Start, Vermittlung, Räume, Musiker & Unterricht, Auftritte, Schwarzes Brett, Über uns, Hintergrund, Unterstützen, Kontakt, Anfrage, Bedingungen, Impressum und Datenschutz. Alle Seiten haben Desktop-, Tablet- und Handy-Breakpoints und einen gemeinsamen nativen Rahmen.
 
 Falls das Schwarze Brett später echte Accounts, Moderation, Suche oder persistente Einträge benötigt, ist das kein reines Framer-CMS-Thema mehr. Dann muss vor Umsetzung bewusst entschieden werden, ob ein externer Dienst, eigenes Backend oder eine andere Datenquelle verwendet wird.
 
@@ -89,6 +81,6 @@ Nicht übernehmen:
 - Branding anderer Kunden
 - universelle Templates
 
-## 8. Offene Recherche
+## 8. Quellen und offene Entscheidungen
 
-Der lokale Obsidian-Vault / die Claude-Memory ist über den GitHub-Zugriff nicht enthalten. Bevor das finale Design oder detaillierte Inhalte entstehen, sollte diese projektspezifische Memory zusätzlich eingelesen werden, sobald sie in der Arbeitsumgebung verfügbar ist.
+Der lokale Obsidian-Vault / die Claude-Memory wurde eingelesen. Die alte MusikerFürMusiker-Seite wurde für Inhalt und Rubriken geprüft; ihre veralteten Rechtstexte und Meldungen wurden nicht übernommen. Die neue Gestaltung liegt bereits im Framer-Canvas. Offen bleiben Freigaben für Logo, Inhalte und Rechtstexte sowie Formular-Empfänger und Moderation. Das Schwarze Brett hat noch keine öffentlichen Einträge.

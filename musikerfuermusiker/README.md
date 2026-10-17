@@ -1,40 +1,27 @@
-# MusikerFürMusiker – technischer Neubau
+# MusikerFürMusiker – Framer-Neubau
 
-Status: native Framer-Struktur im unveröffentlichten Projekt aufgebaut; noch kein finales Design.
+Stand: 17.10.2026. Die Website wird direkt im [eigenständigen Framer-Projekt](https://framer.com/projects/MusikerF-rMusiker--Oqs6vlqumpMTjpEtJI2w-9UllU) gestaltet. Das Projekt ist **nicht veröffentlicht**; keine bestehende Live-Website wurde geändert.
 
-Framer-Projekt: https://framer.com/projects/MusikerF-rMusiker--Oqs6vlqumpMTjpEtJI2w-9UllU
+## Im Framer-Canvas umgesetzt
 
-Die Startseite enthält Navigation, Einstieg, vier Vermittlungsbereiche, Schwarzes Brett, Über uns und Kontakt/Anfrage. Desktop (1200 px), Tablet (810 px) und Handy (390 px) sind im Canvas angelegt. Impressum und Datenschutz sind ausdrücklich redaktionelle Entwürfe. Das Formular ist als einzige Code-Komponente im Canvas eingebunden; ohne konfigurierten POST-Endpunkt verschickt es keine Daten.
+- Startseite mit orangefarbenem MFM-Plakatmotiv, Vermittlungsbereichen, Schwarzem Brett, Projektvorstellung und Anfrageformular
+- 13 weitere Seiten: Vermittlung, Räume, Musiker & Unterricht, Auftritte, Schwarzes Brett, Über uns, Hintergrund, Unterstützen, Kontakt, Anfrage, Bedingungen, Impressum und Datenschutz
+- Ein gemeinsamer nativer Framer-Rahmen mit Navigation und Footer
+- Desktop-, Tablet- und Handy-Breakpoints für alle 14 Seiten
+- Farbstyles für MFM-Orange, Tinte, Papier, Sand und Sekundärtext; Typografie mit Archivo
+- Interne Links zu realen Framer-Seiten; `noIndex` für alle Seiten
 
-## Ziel
+Nur das Anfrageformular ist eine Code-Komponente. Ohne konfigurierten POST-Endpunkt verschickt es keine Daten. Impressum, Datenschutz und Bedingungen sind redaktionelle Entwürfe; für das Schwarze Brett existieren noch keine öffentlichen Einträge oder ein Moderationssystem.
 
-MusikerFürMusiker wird als eigenes Framer-Projekt neu aufgebaut. Die technische Struktur soll funktionieren, responsiv sein und Claude später maximale Freiheit für Gestaltung, Typografie, Bildsprache, Motion und Seitenkomposition lassen.
+Die Navigation und Vermittlungswege wurden in der Framer-Vorschau bis zur Anfrage getestet, auch bei 390 px. Ein ausgefülltes Testformular zeigte korrekt: „Noch kein Formular-Endpunkt verbunden. Es wurden keine Daten übertragen.“ Die Framer-Veröffentlichungsprüfung meldete keine technischen Fehler oder Warnungen; es wurde nicht veröffentlicht.
 
-## Regeln
+## Dateien in diesem Ordner
 
-- Kein universelles Template. Alles in diesem Ordner gehört konkret zu MusikerFürMusiker.
-- Keine Änderungen an bestehenden Live-Websites ohne ausdrückliche Freigabe.
-- `main` bleibt stabil; Neubau auf Feature-Branch.
-- Funktionalität und Inhalt von Styling trennen.
-- Texte, Links, Farben und funktionale Optionen in Framer möglichst als Properties editierbar halten.
-- Keine Backend-Annahme fest verdrahten. Formulare senden erst, wenn ein Endpunkt bewusst konfiguriert wurde.
+- `briefing.md` – Projektziele, Inhalte und offene Entscheidungen
+- `CLAUDE_HANDOFF.md` – konkreter Canvas-Stand für spätere Mitarbeit
+- `MFMInquiryForm.tsx` – Quelle der im Canvas eingebundenen Formular-Komponente
+- `MFMNavigation.tsx` und `MFMServiceHub.tsx` – frühe technische Referenzen; Navigation und Bereiche sind inzwischen nativ im Canvas gebaut
 
-## Aktuelle Komponenten
+## Vor einem Livegang
 
-- `MFMNavigation.tsx` – responsive Hauptnavigation mit Mobile-Menü.
-- `MFMServiceHub.tsx` – projektbezogene Einstiege in die Kernbereiche der Plattform.
-- `MFMInquiryForm.tsx` – zugängliches Anfrageformular mit Validierung und optionalem POST-Endpunkt.
-- `briefing.md` – technische und inhaltliche Ausgangslage.
-- `CLAUDE_HANDOFF.md` – Übergabe für den späteren visuellen Entwurf.
-
-## Noch bewusst offen
-
-- finale Seitenkomposition und visuelle Gestaltung
-- Logo-/Markenaufarbeitung
-- Typografie
-- Farbsystem
-- Bildwelt
-- Animationen/Transitions
-- endgültige Seitenzahl und CMS-Struktur; das Schwarze Brett hat derzeit keine öffentlichen Einträge
-- Formular-Backend / Moderationsworkflow
-- Umsetzung des Schwarzen Bretts bzw. Forums
+Logo/Originaldatei und Inhalte freigeben; Verantwortliche und Rechtstexte prüfen; Formular-Empfänger, Aufbewahrung und Moderation festlegen; Schwarzes Brett technisch und redaktionell definieren. Git `main` bleibt unangetastet.

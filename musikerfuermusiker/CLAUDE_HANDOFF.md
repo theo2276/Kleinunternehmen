@@ -1,57 +1,27 @@
-# Claude Handoff – MusikerFürMusiker
+# MusikerFürMusiker – Übergabe für spätere Mitarbeit
 
-Du übernimmst nach der technischen Basis den kreativen Entwurf.
+Stand: 17.10.2026. Die Gestaltung ist jetzt bereits direkt im [unveröffentlichten Framer-Projekt](https://framer.com/projects/MusikerF-rMusiker--Oqs6vlqumpMTjpEtJI2w-9UllU) umgesetzt. Der Nutzer wollte ausdrücklich eine farbige Grundgestaltung und alle wichtigen Seiten, nicht nur technische TSX-Dateien.
 
-## Framer-Stand (17.10.2026)
+## Canvas-Stand
 
-Eigenständiges, unveröffentlichtes Projekt: https://framer.com/projects/MusikerF-rMusiker--Oqs6vlqumpMTjpEtJI2w-9UllU
+14 Seiten: `/`, `/vermittlung`, `/raeume`, `/menschen`, `/auftritte`, `/schwarzes-brett`, `/ueber-uns`, `/hintergrund`, `/unterstuetzen`, `/kontakt`, `/anfrage`, `/bedingungen`, `/impressum`, `/datenschutz`.
 
-Die tatsächliche Startseite liegt im Framer-Canvas: Navigation, Einstieg, vier Vermittlungsbereiche, Schwarzes Brett, Über uns, Kontakt/Anfrage und Footer. Desktop-, Tablet- und Handy-Breakpoints sind angelegt. Die Bereiche sind native Framer-Frames und Stacks; nur das sichere Anfrageformular ist als Code-Komponente eingebunden. Die Navigation und der Datenschutz-Link wurden in der Vorschau getestet. Ein vollständig ausgefülltes Testformular zeigte ohne Endpunkt „Es wurden keine Daten übertragen“.
+Alle Seiten haben Desktop (1200 px), Tablet (810 px) und Phone (390 px), eine gemeinsame native Navigation und einen gemeinsamen Footer. Die Inhalte bestehen aus Framer-Frames, Stacks und editierbaren Texten. Die Hauptwege sind in der Vorschau getestet: Start → Vermittlung → Räume → Anfrage. Der Formulartest mit ausgefüllten Feldern endet ohne Endpunkt bewusst ohne Datenübertragung. Framer meldete bei der Veröffentlichungsprüfung keine Fehler oder Warnungen; **kein Publish** wurde ausgeführt.
 
-Impressum und Datenschutz sind derzeit nur gekennzeichnete redaktionelle Entwürfe. Das Schwarze Brett ist ein Einstieg ohne öffentliche Einträge oder Moderationssystem. Diese Punkte müssen vor dem Livegang geklärt werden. Es wurde nichts veröffentlicht.
+## Aktuelle gestalterische Richtung
 
-## Was bereits feststeht
+Eine plakative, typografische MFM-Sprache: orange Fläche, dunkle Tinte, heller Papiergrund, nummerierte Vermittlungswege und ein natives MFM-Plakatmotiv im Hero. Das Orange ist am alten MFM-Zeichen in `kreuzberg-on-kultour/bilder-alt/über-uns__musiker-für-musiker/` orientiert. Farbstyles: Orange `#E98A00`, Tinte `#211B19`, Papier `#FFF8ED`, Sand `#F3E6D2`, Sekundärtext `#5E5148`. Schrift: Archivo. Awwwards wurde als Inspiration für kräftige Musik-Typografie und Plakatlogik recherchiert; es wurden keine fremden Assets oder Layouts übernommen.
 
-Die vorhandenen Code Components im Repo dokumentieren Struktur und Funktion:
+Die Richtung kann weiterentwickelt werden. Der Nutzer hat die aktuelle Fassung noch nicht abgenommen. Änderungen bitte direkt im bestehenden Framer-Projekt vornehmen und vor allem Startseite, Navigation und Breakpoints zusammen prüfen.
 
-- Navigation und Kernbereiche sind inzwischen nativ im Canvas umgesetzt; die entsprechenden TSX-Dateien bleiben Referenzen.
-- `MFMInquiryForm.tsx` ist im Canvas eingebunden.
+## Funktion und Grenzen
 
-Sie sind nicht als visuelle Vorlage gedacht.
+- `MFMInquiryForm.tsx` ist die einzige Code-Komponente im Canvas. Ihr POST-Endpunkt ist leer; kein Versand ohne bewusst gesetzten Empfänger.
+- `MFMNavigation.tsx` und `MFMServiceHub.tsx` sind frühe Referenzen. Die sichtbare Navigation und Vermittlungsbereiche sind native Framer-Elemente.
+- Das Schwarze Brett zeigt derzeit Rubriken, aber keine öffentlichen Einträge. Einreichung, Speicherung und Moderation fehlen.
+- Impressum, Datenschutz und Bedingungen sind als redaktionelle Entwürfe gekennzeichnet. Keine veralteten Rechtstexte der alten Jimdo-Seite übernehmen.
+- Alle Seiten sind `noIndex` und unveröffentlicht. Keine bestehende Live-Seite ändern.
 
-## Du darfst frei verändern
+## Vor dem Livegang klären
 
-- Seitenkomposition
-- Hierarchie und Rhythmus
-- Typografie
-- Farben
-- Abstände
-- Radien
-- Bilder
-- Art Direction
-- Icons
-- Motion / Transitions
-- Anordnung und Darstellung der Kernbereiche
-- Texte, solange die Funktion erhalten bleibt
-
-## Bitte erhalten
-
-- responsives Verhalten
-- semantische Elemente und Labels
-- Tastaturbedienbarkeit
-- echte Links statt rein visueller Klickflächen
-- Formularvalidierung und Datenschutz-Zustimmung
-- Formular-Endpunkt als konfigurierbare Property
-- keine Datenübertragung, solange kein Endpunkt gesetzt ist
-
-## Nicht tun
-
-- keine visuellen Muster anderer Kleinunternehmen-Projekte kopieren
-- keine universelle Template-Library aus diesem Projekt machen
-- keine Live-Seite veröffentlichen oder überschreiben
-- kein Backend erfinden oder personenbezogene Daten irgendwohin senden
-- keine vorhandenen Kundenprojekte verändern
-
-## Ziel
-
-MusikerFürMusiker soll am Ende wie eine eigenständige Plattform wirken. Die technische Basis darf dafür komplett neu gestylt oder in Framer-native Frames/Stacks überführt werden, solange die Funktion erhalten bleibt.
+Finale Logo-Datei, Freigabe der Inhalte und Bildrechte; verantwortliche Person/Organisation und Rechtstexte; Formular-Empfänger, Spam-Schutz, Aufbewahrung und Löschung; Moderationsprozess und technische Datenquelle für das Schwarze Brett. Erst danach veröffentlichen.
