@@ -1,0 +1,116 @@
+[
+ {
+  "$control__titel": "Toxic Shock, Ursache Unbekannt, Surlife, Schreiblockade",
+  "$control__termin": "16.02.",
+  "$control__ort": "Tangente",
+  "$control__preise": "VVK 6 € bei copyteam · AK 8 €",
+  "$control__veranstalter": "Kreuzberg on KulTour e. V.",
+  "$control__plakat": {
+   "src": "https://framerusercontent.com/images/gA2TozseOu0AMVvBxYMtuJ9cJ4Y.jpg",
+   "alt": "Plakat: Toxic Shock, Ursache Unbekannt, Surlife, Schreiblockade"
+  },
+  "$control__archiv": "true",
+  "$control__reihenfolge": "1",
+  "$control__slug": "toxic-shock-ursache-unbekannt-surlife-schreiblockade"
+ },
+ {
+  "$control__titel": "Götz Widmann – Solotour",
+  "$control__plakat": {
+   "src": "https://framerusercontent.com/images/F4vJU8ELce7toutXsC0JzTY7zg.jpg",
+   "alt": "Plakat: Götz Widmann – Solotour"
+  },
+  "$control__archiv": "true",
+  "$control__reihenfolge": "2",
+  "$control__slug": "götz-widmann-–-solotour"
+ },
+ {
+  "$control__titel": "Mountain Metal Massacre",
+  "$control__plakat": {
+   "src": "https://framerusercontent.com/images/Wl9vWRoOmnzb8PPIQDjrtMlkzgg.jpg",
+   "alt": "Plakat: Mountain Metal Massacre"
+  },
+  "$control__archiv": "true",
+  "$control__reihenfolge": "3",
+  "$control__slug": "mountain-metal-massacre"
+ },
+ {
+  "$control__titel": "Ü30 Rockshow live – 25 Bugz, Sayur Mayur, Wildside",
+  "$control__termin": "Fr, 22.01.2016",
+  "$control__ort": "Tangente",
+  "$control__preise": "VVK 6 € bei copyteam",
+  "$control__veranstalter": "Kreuzberg on KulTour e. V.",
+  "$control__plakat": {
+   "src": "https://framerusercontent.com/images/GbYInnpB8W9CUk260JwcHLHMJy4.jpg",
+   "alt": "Plakat: Ü30 Rockshow live – 25 Bugz, Sayur Mayur, Wildside"
+  },
+  "$control__archiv": "true",
+  "$control__reihenfolge": "4",
+  "$control__slug": "ü30-rockshow-live-–-25-bugz-sayur-mayur-wildside"
+ },
+ {
+  "$control__titel": "Kreuzberg Punk Rock Special",
+  "$control__veranstalter": "Kreuzberg on KulTour e. V.",
+  "$control__plakat": {
+   "src": "https://framerusercontent.com/images/lsv2G3nCXq2r8oDrzvfxLVZeSls.png",
+   "alt": "Plakat: Kreuzberg Punk Rock Special"
+  },
+  "$control__archiv": "true",
+  "$control__reihenfolge": "5",
+  "$control__slug": "kreuzberg-punk-rock-special"
+ },
+ {
+  "$control__titel": "Liesels Club Nacht – Das Indoor Festival",
+  "$control__plakat": {
+   "src": "https://framerusercontent.com/images/eGyd5Mxouh2VtNhaOPuhQ4xtIA.jpg",
+   "alt": "Plakat: Liesels Club Nacht – Das Indoor Festival"
+  },
+  "$control__archiv": "true",
+  "$control__reihenfolge": "6",
+  "$control__slug": "liesels-club-nacht-–-das-indoor-festival"
+ },
+ {
+  "$control__titel": "X-mas Rock – Academic Failure, Black&Schwarz, Better Than, Sidata",
+  "$control__termin": "26.12.2014",
+  "$control__ort": "Tangente",
+  "$control__veranstalter": "Kreuzberg on KulTour e. V.",
+  "$control__plakat": {
+   "src": "https://framerusercontent.com/images/qqFqOdCsrc9aABHNo3V4QM4U.jpg",
+   "alt": "Plakat: X-mas Rock – Academic Failure, Black&Schwarz, Better Than, Sidata"
+  },
+  "$control__archiv": "true",
+  "$control__reihenfolge": "7",
+  "$control__slug": "x-mas-rock-–-academic-failure-black-schwarz-better-than-sidata"
+ },
+ {
+  "$control__titel": "Götz Widmann – Krieg & Frieden",
+  "$control__termin": "26.11.2014",
+  "$control__ort": "Tangente",
+  "$control__plakat": {
+   "src": "https://framerusercontent.com/images/pIYJBLtIPdBGUooFNWG0HJbJCeU.jpg",
+   "alt": "Plakat: Götz Widmann – Krieg & Frieden"
+  },
+  "$control__archiv": "true",
+  "$control__reihenfolge": "8",
+  "$control__slug": "götz-widmann-–-krieg-frieden"
+ },
+ {
+  "$control__titel": "Soundinvasion",
+  "$control__plakat": {
+   "src": "https://framerusercontent.com/images/jiCG9LB7vtVm0t2xJFHX8pRhc.png",
+   "alt": "Plakat: Soundinvasion"
+  },
+  "$control__archiv": "true",
+  "$control__reihenfolge": "9",
+  "$control__slug": "soundinvasion"
+ },
+ {
+  "$control__titel": "8. Göttinger Indoor-Altstadtfest",
+  "$control__plakat": {
+   "src": "https://framerusercontent.com/images/uUMZr9mj5stdQnBzzwz4c1rSMk.jpg",
+   "alt": "Plakat: 8. Göttinger Indoor-Altstadtfest"
+  },
+  "$control__archiv": "true",
+  "$control__reihenfolge": "10",
+  "$control__slug": "8.-göttinger-indoor-altstadtfest"
+ }
+]

@@ -1,0 +1,541 @@
+[
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/logo+Kopie-1920w.jpg",
+  "name": "Asklepios Fachklinikum Göttingen",
+  "link": "https://www.asklepios.com/goettingen/experten/allgemeine-psychiatrie/",
+  "nr": "01",
+  "url": "https://framerusercontent.com/images/aVkjOk8jh6gxBgtvLSP3nR8xcTg.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/878abeb-georg-august-universitaet-goettingen-logo-1920w.jpg",
+  "name": "Georg-August-Universität Göttingen",
+  "link": "https://www.uni-goettingen.de",
+  "nr": "02",
+  "url": "https://framerusercontent.com/images/O7XjUoi8LbZyn16NiPNtjMtCmkQ.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Unbenannt-3-1920w.jpg",
+  "name": "Hotel Landhaus Biewald",
+  "link": "https://www.landhaus-biewald.de",
+  "nr": "03",
+  "url": "https://framerusercontent.com/images/0UOtptGKFuxtaxLLrjYkOViAR64.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/ruch-000d6976-1920w.jpg",
+  "name": "Feinbäckerei Ruch GmbH",
+  "link": "http://www.baeckerei-ruch.com",
+  "nr": "04",
+  "url": "https://framerusercontent.com/images/v7RxqPebeFGxFyoLiDYjg0TCP7o.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Unbenannt-1-1920w.jpg",
+  "name": "Genießer Stube",
+  "link": "https://www.landhaus-biewald.de/geniesser-stube/",
+  "nr": "05",
+  "url": "https://framerusercontent.com/images/wpRfbulH89mLKUwe9hXkYQYMjI.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/11075653825+Kopie-1920w.jpg",
+  "name": "Novelis Deutschland GmbH Werk Göttingen",
+  "link": "https://de.novelis.com/locations/",
+  "nr": "06",
+  "url": "https://framerusercontent.com/images/iAzlrFnoHVpNedsze4aCA60fT7k.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/thiele-1920w.png",
+  "name": "BÄCKEREI THIELE",
+  "link": "https://thiele.info",
+  "nr": "07",
+  "url": "https://framerusercontent.com/images/o9Js2M8ON1aBTM4IUXY287zu9RI.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/phywe-logo_min+Kopie-1920w.jpg",
+  "name": "PHYWE Systeme GmbH & Co. KG",
+  "link": "https://www.phywe.de",
+  "nr": "08",
+  "url": "https://framerusercontent.com/images/ftJKsy9Jp0dUdOXtB2yE2A9Dp4.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Hardenberg-4a69c116-1920w.jpg",
+  "name": "GOLF RESORT HARDENBERG",
+  "link": "https://www.stefanquirmbach.de",
+  "nr": "09",
+  "url": "https://framerusercontent.com/images/21b9sDRIGSUxT0fBtt0QPwkQPdg.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/pro-office-3a4f7172-1920w.jpg",
+  "name": "pro office Büro- und Objekteinrichtung Vertriebsgesellschaft mbH",
+  "link": "https://www.prooffice.de/bueromoebel/goettingen.html",
+  "nr": "10",
+  "url": "https://framerusercontent.com/images/XAH2WzrwwgHYoQn5Kfp4XcD6ZMw.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Unbenannt-2-1920w.jpg",
+  "name": "Restaurant \"Zur Tränke\"",
+  "link": "https://www.landhaus-biewald.de/zur-traenke/",
+  "nr": "11",
+  "url": "https://framerusercontent.com/images/TD0UYJUFa0u4rmmOFYzTxeOmQUc.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Bg_74-db2ecbec-1920w.png",
+  "name": "BG 74 Göttingen",
+  "link": "http://www.bg74.de",
+  "nr": "12",
+  "url": "https://framerusercontent.com/images/Qlr4AaDLAS1D3pczAqSrK8XR6OQ.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/REWE-LOGO-9f671a1f-1920w.jpg",
+  "name": "REWE Supermarkt",
+  "link": "https://www.rewe.de/marktseite/rewe-markt-göttingen-am-steinsgraben-34",
+  "nr": "13",
+  "url": "https://framerusercontent.com/images/Hft9tqKGfLGEK3636SMnTShpME.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/techem-241d80f7-1920w.jpg",
+  "name": "Techem",
+  "link": "https://www.techem.de",
+  "nr": "14",
+  "url": "https://framerusercontent.com/images/VM2X2tmjIGMwpblwWDKBXLk72k.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Unknown-1-1920w.jpg",
+  "name": "Shell",
+  "link": "http://www.shell.de",
+  "nr": "15",
+  "url": "https://framerusercontent.com/images/V2EOtfXDRTjhoKZEbHjW6bvUtw.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Sausalitos-a4fce824-1920w.jpg",
+  "name": "SAUSALITOS Holding GmbH",
+  "link": "https://www.sausalitos.de/mein-sausalitos/goettingen/",
+  "nr": "16",
+  "url": "https://framerusercontent.com/images/eIrwWkW4WJcWIgeXSunbsx8eMg.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/6409acc4-6409ad49465cf-picture-0+Kopie-1920w.jpg",
+  "name": "Ristorante DA ENZO",
+  "link": "https://ristorante-da-enzo.com",
+  "nr": "17",
+  "url": "https://framerusercontent.com/images/uAwdUIHg4ogMFOPJDRUv5qFL1I.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/574742_331449316966771_350961539_n-1920w.jpg",
+  "name": "Brandt Immobilien GmbH",
+  "link": "http://brandt-immobilien.org/?gclid=CPfu4anCuNUCFZMYGwod0JsGjA",
+  "nr": "18",
+  "url": "https://framerusercontent.com/images/eBNKsvuJybXxFc7UTA9VTNrQdo.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/logo_Proventura_top_1_toponly+Kopie-1920w.jpg",
+  "name": "Proventura Industrie-Auktion GmbH",
+  "link": "https://www.proventura.de/ueber-proventura--id-45-minicms.html#goettingen",
+  "nr": "19",
+  "url": "https://framerusercontent.com/images/r3QfHeu83yB9vjsdoFCtodfbvQ.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Kaufpark+G%C3%B6ttingen-2ac48df3-1920w.jpg",
+  "name": "Werbegemeinschaft Kauf Park GbR",
+  "link": "http://www.kauf-park.de",
+  "nr": "20",
+  "url": "https://framerusercontent.com/images/Y8ArudpygnJtnxTOS9zPU2p4H0.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/17545393_10154749521073096_1062997187617560474_o-1920w.jpg",
+  "name": "Hit Radio Show GbR",
+  "link": "http://www.hitradioshow.de/",
+  "nr": "21",
+  "url": "https://framerusercontent.com/images/Y58MQsBEhoglrN988Wxz08ENGEM.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/reddersen-logo-big-05b2769f-1920w.jpg",
+  "name": "Reddersens Eichsfelder Landwurstspezialitäten",
+  "link": "https://www.reddersens-streetfood.de",
+  "nr": "22",
+  "url": "https://framerusercontent.com/images/QweJfvQnrx1LYFg2muM16VX9nHk.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/psm_securety-d9ce0955-1920w.jpg",
+  "name": "PSM SECURITY GmbH",
+  "link": "https://www.psm-security.de",
+  "nr": "23",
+  "url": "https://framerusercontent.com/images/6BGOHAQaqyJXrhB6UKmzC6odmSU.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/dab-5b3a2d7f-1920w.jpg",
+  "name": "DAB Bier",
+  "link": "http://www.dab-beer.com",
+  "nr": "24",
+  "url": "https://framerusercontent.com/images/v97uXbHEfz74ngwpjirt2Q8gt5k.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Unknown-1920w.jpg",
+  "name": "Meesenburg",
+  "link": "https://www.meesenburg.com",
+  "nr": "25",
+  "url": "https://framerusercontent.com/images/NzkSRclBHm91c5defqK8KwnHHCU.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Unknown-45d4c291-1920w.jpg",
+  "name": "LVM  Armin Messing",
+  "link": "https://messing.lvm.de/wps/portal/lvm/meineagentur/ueberuns/0502700/!ut/p/z1/dY_LCoMwEEW_xmWZKL66lFD6AqFIa5ONRJtKMCYSo4V-fRO6FmZz4N7DHaDwBKrYKnpmhVZMOiY0bU75_nzEcXjN8QGjogxvcXkpo6RCQFwg2QwUIVRAgbYLN1oZIAh51Eb0wunvRgL5THOAJm0skwGS6-jAiJXZYVEvrnx85hZrZVlnHyOQBEXZX7OOXunZE-_02LxZx-fGcFcBYs3CoXYDs-2BKVAEtVO7f2EaWPvl_nb1D3m9Kq0!/?vmnr=5027&bueronr=00&ecom_faces_reset=true",
+  "nr": "26",
+  "url": "https://framerusercontent.com/images/19WiMqGBdAAMh3XTTStIWxbN9a8.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Xplace-ce21dbb8-1920w.jpg",
+  "name": "xplace GmbH",
+  "link": "http://www.xplace.de",
+  "nr": "27",
+  "url": "https://framerusercontent.com/images/wBjxthLC9tpHKR1j3Ut2buKi7o.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/gross-schneer-hof-f0c1c773-1920w.jpg",
+  "name": "LANDHOTEL GROß SCHNEER HOF",
+  "link": "http://www.gross-schneer-hof.de",
+  "nr": "28",
+  "url": "https://framerusercontent.com/images/SF16fmR4iGRkdDicg0sOq80l1s.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/logo-juric-goettingen-1920w.jpg",
+  "name": "SEEBODE+JURIC GMBH",
+  "link": "http://www.montageservice-juric.de",
+  "nr": "29",
+  "url": "https://framerusercontent.com/images/6YEl7Mww3QXmPd0tBPh3QCg3zk.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/AAEAAQAAAAAAAAPoAAAAJGNhN2MyOWU1LTU3MzgtNGIxOC1iNmIxLTI0YTFlNGQzNGI4Yg-0ee434f0-1920w.jpg",
+  "name": "Lidl E-Commerce International GmbH & Co. KG",
+  "link": "https://www.lidl.de",
+  "nr": "30",
+  "url": "https://framerusercontent.com/images/OIv64MAQBhF8fgdQcZnWd75B8.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Alpenmax-73c0d063-1920w.jpg",
+  "name": "Alpenmax",
+  "link": "http://www.discofun.de/goettingen/",
+  "nr": "31",
+  "url": "https://framerusercontent.com/images/Nwzid9rjPNT6PIjB019l3owvJo0.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/niedersachsen-5fd53ed6-1920w.jpg",
+  "name": "Niedersachen",
+  "link": "https://www.niedersachsen.de/startseite/",
+  "nr": "32",
+  "url": "https://framerusercontent.com/images/16sj2iNF6WcplsayUIzujZgqesU.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/rz_fam-1920w.jpg",
+  "name": "RaportaZ",
+  "link": "http://www.raportaz.de",
+  "nr": "33",
+  "url": "https://framerusercontent.com/images/MWXhjht69n5zVXJKk6F6Qlr024.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/extratip-eea5e1c3-1920w.jpg",
+  "name": "ExtraTIP",
+  "link": "http://extratip-goettingen.de",
+  "nr": "34",
+  "url": "https://framerusercontent.com/images/obNwB7L1zN138Y7eWAhfFSCTs.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/dluxe_media-e38a5741-1920w.jpg",
+  "name": "dluxe media GmbH",
+  "link": "http://www.dluxe-media.de",
+  "nr": "35",
+  "url": "https://framerusercontent.com/images/3o5018UJvM5mhRH08Fev6wPyMlA.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/x-cite-73f2e785-1920w.jpg",
+  "name": "X-CITE Promotion & Event GmbH",
+  "link": "http://www.x-cite.de",
+  "nr": "36",
+  "url": "https://framerusercontent.com/images/R7iVACfJVXyjmK7HglK5hbdslA.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Wohnenundbetreuung-ef287e30-1920w.jpg",
+  "name": "Wohnen und betreuung",
+  "link": "http://www.wohnenundbetreuung.de",
+  "nr": "37",
+  "url": "https://framerusercontent.com/images/OYt8Cn6WOhm6oLjwsUnuIf5Xtjs.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Dampfcouch-a8f09bef-1920w.jpg",
+  "name": "Dampfcouch GmbH",
+  "link": "http://www.dampfcouch.de",
+  "nr": "38",
+  "url": "https://framerusercontent.com/images/YM2IYHFos4Wx4wRE8VCmbxvSnZE.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Marcia+Barrett+Boney+M.+-1920w.jpg",
+  "name": "Marcia Barrett Boney M.",
+  "link": "https://www.facebook.com/Marcia.Barrett.Boney.M/",
+  "nr": "39",
+  "url": "https://framerusercontent.com/images/EKIc5Ko8DjXk8oVIkbqQSRNP5a0.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Von+Rundstedt-2cd6addd-1920w.jpg",
+  "name": "v. Rundstedt & Partner GmbH",
+  "link": "http://www.rundstedt.de",
+  "nr": "40",
+  "url": "https://framerusercontent.com/images/ZivwZbwkNFjZDg5cIP6dt8h4gjc.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Unknown-2-1920w.jpg",
+  "name": "Klimaschutz Göttingen e.V.",
+  "link": "http://klimaschutz-goettingen.de",
+  "nr": "41",
+  "url": "https://framerusercontent.com/images/RXrgfSQgDjZkadUeWEEb5n1dtrk.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/hairfree-60013725-1920w.jpg",
+  "name": "hairfree GmbH",
+  "link": "http://www.hairfree.com/institute/goettingen/?kennstDuEinenSemTracking=active&gclid=CjwKEAjw8IXMBRD8grLxi5ql5E4SJACD1-Aw4vwHyOTRpW7kMiRCMKd0DY91E-7kblKxsEf_q1Rk-BoCFJLw_wcB",
+  "nr": "42",
+  "url": "https://framerusercontent.com/images/sc8m0vUtu69swiJmXRTX6yX8KZE.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Stadtmarketing+Nordheim-e5d11389-1920w.jpg",
+  "name": "Stadtmarketing Northeim e.V.",
+  "link": "http://www.stadtmarketing-northeim.de",
+  "nr": "43",
+  "url": "https://framerusercontent.com/images/BoSCTEX7htUmCwd2GkH9tOOs3zQ.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/swing----web-455fd3ce-1920w.jpg",
+  "name": "Tanzschule Swing",
+  "link": "https://www.tsswing.de",
+  "nr": "44",
+  "url": "https://framerusercontent.com/images/0u9rnQjmwPu3VmYSG6kivoOyNGM.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/L-91721-1395228780-9004.jpeg-1920w.jpg",
+  "name": "RZ-recordingz",
+  "link": "https://rz-recordingz.de",
+  "nr": "45",
+  "url": "https://framerusercontent.com/images/aJAkbTBKCrBblVpHgT4NlCSmI0.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/CEHKO-bba3386f-1920w.jpg",
+  "name": "C:EHKO",
+  "link": "http://www.cehko.de",
+  "nr": "46",
+  "url": "https://framerusercontent.com/images/NckPe5110AbgEWD2iC8mTB4ywTs.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Stahlmann_Logo-2ff151d6-1920w.jpg",
+  "name": "Stahlmann",
+  "link": "http://www.stahlmann.tv/",
+  "nr": "47",
+  "url": "https://framerusercontent.com/images/YUMLgXl4TjBaf87injYlsggXKjk.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/DieTechniker-ab04913d-1920w.jpg",
+  "name": "Techniker Krankenkasse",
+  "link": "https://www.tk.de",
+  "nr": "48",
+  "url": "https://framerusercontent.com/images/yJJDGQbDDcbv99Da5nbd40TW0jY.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Screenshot+2017-07-28+12.45.16-1920w.jpg",
+  "name": "Gemeinschaftspraxis Kolb",
+  "link": "http://www.hausarzt-kolb.de",
+  "nr": "49",
+  "url": "https://framerusercontent.com/images/AmCusgmAI8hFA74aUTMrjsQvImc.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/sabrina+terence-1920w.jpg",
+  "name": "Sabrina Terence",
+  "link": "https://www.facebook.com/sabrinaterence/",
+  "nr": "50",
+  "url": "https://framerusercontent.com/images/7VOUJxupLYcGIQ7of15bdISpCbg.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/plameco-de-2-1920w.jpg",
+  "name": "Plameco Decken",
+  "link": "https://www.plameco.de",
+  "nr": "51",
+  "url": "https://framerusercontent.com/images/kESK7dwfxfgHvSkG6hPFcXR3zvQ.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/10402691_757169220990545_6340768140402560339_n-1920w.jpg",
+  "name": "Kanzlei de Bray",
+  "link": "http://www.goettingen-versicherung.de/",
+  "nr": "52",
+  "url": "https://framerusercontent.com/images/zTuJEOln6QvSrwggLuvHdyq9QQk.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/14606320_1752894154971487_5284695458060615063_n-1920w.jpg",
+  "name": "„Aseef & Bestie“",
+  "link": "http://aseef-bestie.de/#start",
+  "nr": "53",
+  "url": "https://framerusercontent.com/images/iNH0BYNkNtAsrzBj3u38TVt08.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Milku-359e6230-1920w.jpg",
+  "name": "MILKU Tierhygiene GmbH",
+  "link": "https://milku.de/",
+  "nr": "54",
+  "url": "https://framerusercontent.com/images/Wd03AxXYSiQ5otzQln8c8Haeo8.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/meyer-hennecke-c8dd94d2-1920w.jpg",
+  "name": "Kathrin Meyer-Hennecke",
+  "link": "http://www.rechtsanwaeltin-goettingen.de/index.php",
+  "nr": "55",
+  "url": "https://framerusercontent.com/images/8WA3KpAFY2PZgJYFeDMhshKVVQU.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/ETL-a2e6c814-1920w.jpg",
+  "name": "Steuerberatungsgesellschaft mbH",
+  "link": "http://www.etl.de/advisa-goettingen/",
+  "nr": "56",
+  "url": "https://framerusercontent.com/images/e6rZ7qfIOyrltYEDg3K67jITS4.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Managment_System-74b08ead-1920w.jpg",
+  "name": "Management Systeme für Qualität, Hygiene und Medizinprodukte",
+  "link": "http://www.management-gesundheitswesen.de/",
+  "nr": "57",
+  "url": "https://framerusercontent.com/images/7JBE31L2aG3E22lBqY7cOW18NSs.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/m01-logo-1920w.jpg",
+  "name": "Die Signmaker GmbH",
+  "link": "http://www.die-signmaker.de/",
+  "nr": "58",
+  "url": "https://framerusercontent.com/images/GPqcSH9gCKJ5xPiX03LWS5C5g.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Alpha+Academy-1cbfd942-1920w.jpg",
+  "name": "Alpha Academy Band",
+  "link": "https://de-de.facebook.com/Alpha-Academy-134941454144/",
+  "nr": "59",
+  "url": "https://framerusercontent.com/images/qeGMQxl2julHjcv5pfEJFktew.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/logo1-1920w.jpg",
+  "name": "City Apotheke Göttingen",
+  "link": "http://www.cityapotheke-goettingen.de/apotheke/",
+  "nr": "60",
+  "url": "https://framerusercontent.com/images/5p80E0SYDdJLT1PhzR4M9FRyhdw.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Kingsbury+GmbH+Logo-1920w.jpg",
+  "name": "Kingsbury GmbH",
+  "link": "http://www.kingsbury.com/contact",
+  "nr": "61",
+  "url": "https://framerusercontent.com/images/V3n0T3J7d7KceZLVHGVdBTbGQI.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Karmen+Sch%C3%BCtz-86d01b21-1920w.jpg",
+  "name": "Karen Schütz Friseurbetriebe & Akademie",
+  "link": "http://www.karen-schuetz.de/",
+  "nr": "62",
+  "url": "https://framerusercontent.com/images/6y1IZzBWeuZF8UIuBvfWBsoAMtM.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/logo-img-700x700-1920w.jpg",
+  "name": "NORTIA - Ideenfindung und Reklame",
+  "link": "http://www.nortia.de/",
+  "nr": "63",
+  "url": "https://framerusercontent.com/images/GFy7gXSyhKudokVsmnt9gmFiZc.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/international-umzug-1920w.jpg",
+  "name": "Herbold – Menze Möbeltranslogistik GmbH",
+  "link": "http://www.herbold-menze.de/",
+  "nr": "64",
+  "url": "https://framerusercontent.com/images/VXqEjYAZesxTbMOwVwA4UYdYnU.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/ikm-logo-1920w.jpg",
+  "name": "IKmedia GmbH",
+  "link": "http://www.ikmedia.de/kontakt/",
+  "nr": "65",
+  "url": "https://framerusercontent.com/images/NjaerXU5wVUsm95ni7TJq5xUQw.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/GreenHaus-1920w.jpg",
+  "name": "Möbelmanufaktur GreenHaus UG",
+  "link": "https://greenhaus.de/",
+  "nr": "66",
+  "url": "https://framerusercontent.com/images/IJjyxvZyF7prDCcZidjerKNcgk.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Goekickonline-5da6d186-1920w.jpg",
+  "name": "Gökick GbR",
+  "link": "http://goekick.com/",
+  "nr": "67",
+  "url": "https://framerusercontent.com/images/rO55DdoWayfXXgpz0Ayacn0ucFs.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Friseur+H%C3%A4rtelt-c556d904-1920w.jpg",
+  "name": "Friseur Härtelt",
+  "link": "http://friseur-haertelt.de/",
+  "nr": "68",
+  "url": "https://framerusercontent.com/images/B125T0yPbCN4jYOGgnSa0sgZxHs.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/FKG-648417ef-1920w.jpg",
+  "name": "Felix-Klein-Gymnasium",
+  "link": "http://www.fkg-goettingen.de/",
+  "nr": "69",
+  "url": "https://framerusercontent.com/images/qn5mvunb85UodtOflJCsEMWBVso.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Bundesfachschule_f%C3%BCr_Betriebswirtschaft-c7929878-1920w.jpg",
+  "name": "Bundesfachschule für Betriebswirtschaft im Kraftfahrzeuggewerbe (BFC) e. V.",
+  "link": "http://www.bfc.de/",
+  "nr": "70",
+  "url": "https://framerusercontent.com/images/bv9GE3s2hQ6vhGOPEgS0cp5309k.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/continentale-490eed20-1920w.jpg",
+  "name": "Continentale Krankenversicherung a.G.",
+  "link": "https://www.continentale.de/web/kurt-boenigk",
+  "nr": "71",
+  "url": "https://framerusercontent.com/images/3jlhj5m5h7asyxgxDtoxq82EGlQ.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Bad+Natur-12136fcf-1920w.jpg",
+  "name": "Bad Nauheim Stadtmarketing und Tourismus GmbH",
+  "link": "https://www.bad-nauheim.de/index.html",
+  "nr": "72",
+  "url": "https://framerusercontent.com/images/4gZsZfR02oy4XQSqowJ3YfZDahw.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/37-aefbb52d-1920w.jpg",
+  "name": "Leben 37 Stadtmagazin Göttingen",
+  "link": null,
+  "nr": "73",
+  "url": "https://framerusercontent.com/images/LsP6oYUXrFNDelj0TBcqATeLYM.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/524579_279927128758141_117838894_n-1920w.jpg",
+  "name": "Candle Factory Inh. Dennis Gödeke e.K.",
+  "link": "http://candlefactory.de/home/",
+  "nr": "74",
+  "url": "https://framerusercontent.com/images/oOv5PYgQ1GkXFAfUcnvsxPuW9s.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/420753_260588314010126_1959269102_n-1920w.jpg",
+  "name": "PBI Performance Products, Inc.",
+  "link": "http://www.pbiproducts.com/",
+  "nr": "75",
+  "url": "https://framerusercontent.com/images/Jrg5hNH9hA0cpWXOPYc6A62lOsA.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/Unbenannt-1-a2d55098-1920w.jpg",
+  "name": "BooGardi",
+  "link": "https://www.boogardi.eu",
+  "nr": "76",
+  "url": "https://framerusercontent.com/images/h1aKNR8rTZCU6KUOkjAX4qlAm0.jpg"
+ },
+ {
+  "logo": "https://le-cdn.website-editor.net/f9a82117b0624e08959ba82408cfebf0/dms3rep/multi/opt/goloci-e533cab6-1920w.jpg",
+  "name": "Goloci",
+  "link": "http://www.goloci.de/",
+  "nr": "77",
+  "url": "https://framerusercontent.com/images/lwHpVRhgUsFrbbphOcmQlO7Upx8.jpg"
+ }
+]

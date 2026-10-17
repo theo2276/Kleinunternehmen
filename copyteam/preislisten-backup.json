@@ -1,0 +1,490 @@
+[
+ {
+  "$control__titel": "Kopien s/w, Selbstbedienung",
+  "$control__bereich": "Drucke & Kopien",
+  "$control__spalte_menge": "Anzahl",
+  "$control__spalte_preis": "Je Kopie",
+  "$control__hinweis": "DIN A4, 80-g-Normalpapier.",
+  "$control__reihenfolge": "1",
+  "$control__staffel": [
+   {
+    "menge": "bis 250",
+    "preis": "10 ct",
+    "id": "GSS_Bynfg"
+   },
+   {
+    "menge": "251 – 500",
+    "preis": "9 ct",
+    "id": "fGBFY2XhC"
+   },
+   {
+    "menge": "501 – 750",
+    "preis": "8 ct",
+    "id": "xMdmLmltF"
+   },
+   {
+    "menge": "ab 751",
+    "preis": "Laserpreis",
+    "id": "iTL9le6Vw"
+   }
+  ],
+  "$control__slug": "kopien-selbstbedienung"
+ },
+ {
+  "$control__titel": "Laserkopien & -drucke s/w",
+  "$control__bereich": "Drucke & Kopien",
+  "$control__spalte_menge": "Anzahl",
+  "$control__spalte_preis": "Je Seite",
+  "$control__hinweis": "DIN A4, 80 g. Bei Ausdrucken einmalig 50 Cent Systemgebühr.",
+  "$control__reihenfolge": "2",
+  "$control__staffel": [
+   {
+    "menge": "1 – 20",
+    "preis": "15 ct",
+    "id": "b2amROZKF"
+   },
+   {
+    "menge": "21 – 50",
+    "preis": "13 ct",
+    "id": "y9eD0DJZB"
+   },
+   {
+    "menge": "51 – 100",
+    "preis": "11 ct",
+    "id": "POB10ZZF7"
+   },
+   {
+    "menge": "101 – 250",
+    "preis": "10 ct",
+    "id": "ryyKVikDu"
+   },
+   {
+    "menge": "251 – 500",
+    "preis": "9 ct",
+    "id": "nnbJOvr_4"
+   },
+   {
+    "menge": "501 – 750",
+    "preis": "8 ct",
+    "id": "exSWHq98V"
+   },
+   {
+    "menge": "751 – 1.000",
+    "preis": "7 ct",
+    "id": "t2qE6AfvC"
+   },
+   {
+    "menge": "1.001 – 2.500",
+    "preis": "6 ct",
+    "id": "TXDPP_NY7"
+   },
+   {
+    "menge": "2.501 – 5.000",
+    "preis": "5,5 ct",
+    "id": "IADIoKZGd"
+   },
+   {
+    "menge": "5.001 – 10.000",
+    "preis": "5 ct",
+    "id": "x5WmlUjO2"
+   },
+   {
+    "menge": "10.001 – 20.000",
+    "preis": "4,5 ct",
+    "id": "vo0aOPBbc"
+   },
+   {
+    "menge": "ab 20.000",
+    "preis": "4 ct",
+    "id": "ZNCGrf12E"
+   }
+  ],
+  "$control__slug": "laser-sw"
+ },
+ {
+  "$control__titel": "Laserkopien & -drucke Farbe, einzeln",
+  "$control__bereich": "Drucke & Kopien",
+  "$control__spalte_menge": "Anzahl",
+  "$control__spalte_preis": "Je Seite",
+  "$control__hinweis": "DIN A4, 80 g. Bei Ausdrucken einmalig 50 Cent Systemgebühr.",
+  "$control__reihenfolge": "3",
+  "$control__staffel": [
+   {
+    "menge": "1 – 5",
+    "preis": "95 ct",
+    "id": "zWhsy4USm"
+   },
+   {
+    "menge": "6 – 10",
+    "preis": "90 ct",
+    "id": "oCehpJolX"
+   },
+   {
+    "menge": "11 – 15",
+    "preis": "85 ct",
+    "id": "z6jPz4o61"
+   },
+   {
+    "menge": "16 – 20",
+    "preis": "80 ct",
+    "id": "Dbu9C0KPG"
+   },
+   {
+    "menge": "21 – 25",
+    "preis": "75 ct",
+    "id": "Wrr6ufcFq"
+   }
+  ],
+  "$control__slug": "laser-farbe-einzeln"
+ },
+ {
+  "$control__titel": "Laserkopien & -drucke Farbe, Serien",
+  "$control__bereich": "Drucke & Kopien",
+  "$control__spalte_menge": "Anzahl",
+  "$control__spalte_preis": "Je Seite",
+  "$control__hinweis": "Gleiche Vorlage mehrfach. DIN A4, 80 g.",
+  "$control__reihenfolge": "4",
+  "$control__staffel": [
+   {
+    "menge": "20 – 30",
+    "preis": "40 ct",
+    "id": "xTF_Zndvh"
+   },
+   {
+    "menge": "31 – 50",
+    "preis": "35 ct",
+    "id": "BITwZJVoB"
+   },
+   {
+    "menge": "51 – 200",
+    "preis": "30 ct",
+    "id": "Bj4x4rEdg"
+   },
+   {
+    "menge": "201 – 500",
+    "preis": "25 ct",
+    "id": "ysHBNAaCn"
+   },
+   {
+    "menge": "ab 501",
+    "preis": "20 ct",
+    "id": "edEj8biMD"
+   }
+  ],
+  "$control__slug": "laser-farbe-serien"
+ },
+ {
+  "$control__titel": "Plot DIN A2",
+  "$control__bereich": "Drucke & Kopien",
+  "$control__spalte_menge": "Anzahl",
+  "$control__spalte_preis": "Je Druck",
+  "$control__hinweis": "Sofortdruck auf hochweißem, beschichtetem 120-g-Papier.",
+  "$control__reihenfolge": "5",
+  "$control__staffel": [
+   {
+    "menge": "1 – 5",
+    "preis": "15,00 €",
+    "id": "OrCSaYuyv"
+   },
+   {
+    "menge": "6 – 10",
+    "preis": "14,00 €",
+    "id": "K4mHatEbX"
+   },
+   {
+    "menge": "11 – 20",
+    "preis": "13,50 €",
+    "id": "qSntXSatp"
+   },
+   {
+    "menge": "21 – 50",
+    "preis": "13,00 €",
+    "id": "M9qpfVM86"
+   },
+   {
+    "menge": "ab 51",
+    "preis": "12,00 €",
+    "id": "pHlpikEB2"
+   }
+  ],
+  "$control__slug": "plot-din-a2"
+ },
+ {
+  "$control__titel": "Plot DIN A1",
+  "$control__bereich": "Drucke & Kopien",
+  "$control__spalte_menge": "Anzahl",
+  "$control__spalte_preis": "Je Druck",
+  "$control__hinweis": "Sofortdruck auf hochweißem, beschichtetem 120-g-Papier.",
+  "$control__reihenfolge": "6",
+  "$control__staffel": [
+   {
+    "menge": "1 – 5",
+    "preis": "25,00 €",
+    "id": "ysR9B7Lim"
+   },
+   {
+    "menge": "6 – 10",
+    "preis": "21,00 €",
+    "id": "IkF49Xu64"
+   },
+   {
+    "menge": "11 – 20",
+    "preis": "23,00 €",
+    "id": "s17lWZvua"
+   },
+   {
+    "menge": "21 – 50",
+    "preis": "22,00 €",
+    "id": "mqAvZzk_L"
+   },
+   {
+    "menge": "ab 51",
+    "preis": "20,00 €",
+    "id": "g39iNyWuw"
+   }
+  ],
+  "$control__slug": "plot-din-a1"
+ },
+ {
+  "$control__titel": "Plot DIN A0",
+  "$control__bereich": "Drucke & Kopien",
+  "$control__spalte_menge": "Anzahl",
+  "$control__spalte_preis": "Je Druck",
+  "$control__hinweis": "Sofortdruck auf hochweißem, beschichtetem 120-g-Papier.",
+  "$control__reihenfolge": "7",
+  "$control__staffel": [
+   {
+    "menge": "1 – 5",
+    "preis": "40,00 €",
+    "id": "miLFDALkp"
+   },
+   {
+    "menge": "6 – 10",
+    "preis": "39,00 €",
+    "id": "Q3FblkV4Y"
+   },
+   {
+    "menge": "11 – 20",
+    "preis": "37,00 €",
+    "id": "gbPZ30Qqv"
+   },
+   {
+    "menge": "21 – 50",
+    "preis": "35,00 €",
+    "id": "rWFNy82pr"
+   },
+   {
+    "menge": "ab 51",
+    "preis": "30,00 €",
+    "id": "A94tVh95i"
+   }
+  ],
+  "$control__slug": "plot-din-a0"
+ },
+ {
+  "$control__titel": "CAD-Drucke",
+  "$control__bereich": "Drucke & Kopien",
+  "$control__spalte_menge": "Format",
+  "$control__spalte_preis": "Je Druck",
+  "$control__hinweis": "Auf 90-g-Papier. Fotopapiere gegen 5 bis 10 € Aufpreis.",
+  "$control__reihenfolge": "8",
+  "$control__staffel": [
+   {
+    "menge": "DIN A2",
+    "preis": "ab 2,50 €",
+    "id": "J7ISQktAM"
+   },
+   {
+    "menge": "DIN A1",
+    "preis": "ab 5,00 €",
+    "id": "QsVSnfXFX"
+   },
+   {
+    "menge": "DIN A0+",
+    "preis": "ab 9,00 €",
+    "id": "MrP5l_9YR"
+   }
+  ],
+  "$control__slug": "cad-drucke"
+ },
+ {
+  "$control__titel": "Spiralbindung, Plastik",
+  "$control__bereich": "Bindungen",
+  "$control__spalte_menge": "Blatt",
+  "$control__spalte_preis": "Preis",
+  "$control__hinweis": "Blattangaben für 80-g-Papier.",
+  "$control__reihenfolge": "9",
+  "$control__staffel": [
+   {
+    "menge": "bis 50",
+    "preis": "3,50 €",
+    "id": "PROlLPQDG"
+   },
+   {
+    "menge": "51 – 90",
+    "preis": "4,50 €",
+    "id": "AlioOzR6Q"
+   },
+   {
+    "menge": "91 – 150",
+    "preis": "5,50 €",
+    "id": "YuIUGyWD0"
+   },
+   {
+    "menge": "151 – 210",
+    "preis": "6,50 €",
+    "id": "qYXmvWUWq"
+   },
+   {
+    "menge": "211 – 350",
+    "preis": "7,50 €",
+    "id": "ifNwdJKME"
+   },
+   {
+    "menge": "351 – 500",
+    "preis": "10,50 €",
+    "id": "OOygcXZEO"
+   }
+  ],
+  "$control__slug": "spiralbindung-plastik"
+ },
+ {
+  "$control__titel": "Drahtbindung, Metall",
+  "$control__bereich": "Bindungen",
+  "$control__spalte_menge": "Blatt",
+  "$control__spalte_preis": "Preis",
+  "$control__hinweis": "Kalender inklusive Aufhänger und Bindegut-Zuschlag.",
+  "$control__reihenfolge": "10",
+  "$control__staffel": [
+   {
+    "menge": "bis 40",
+    "preis": "5,50 €",
+    "id": "U0LJUBx2N"
+   },
+   {
+    "menge": "41 – 120",
+    "preis": "6,50 €",
+    "id": "dGeEfdVQ0"
+   },
+   {
+    "menge": "Kalender",
+    "preis": "6,50 €",
+    "id": "z0cTfg6pS"
+   }
+  ],
+  "$control__slug": "drahtbindung-metall"
+ },
+ {
+  "$control__titel": "Feste Heftbindung",
+  "$control__bereich": "Bindungen",
+  "$control__spalte_menge": "Blatt",
+  "$control__spalte_preis": "Preis",
+  "$control__hinweis": "Extrem stabil, mit festem Einband.",
+  "$control__reihenfolge": "11",
+  "$control__staffel": [
+   {
+    "menge": "bis 100",
+    "preis": "7,00 €",
+    "id": "nekimjFp4"
+   },
+   {
+    "menge": "101 – 150",
+    "preis": "8,00 €",
+    "id": "BTXQNDAqO"
+   },
+   {
+    "menge": "151 – 170",
+    "preis": "9,00 €",
+    "id": "WJ_excqa7"
+   }
+  ],
+  "$control__slug": "feste-heftbindung"
+ },
+ {
+  "$control__titel": "Leimbindung mit Fälzelbandrücken",
+  "$control__bereich": "Bindungen",
+  "$control__spalte_menge": "Blatt",
+  "$control__spalte_preis": "Preis",
+  "$control__hinweis": "Die klassische Bindung für Abschlussarbeiten.",
+  "$control__reihenfolge": "12",
+  "$control__staffel": [
+   {
+    "menge": "bis 60",
+    "preis": "7,50 €",
+    "id": "adkYgvwsW"
+   },
+   {
+    "menge": "61 – 90",
+    "preis": "8,50 €",
+    "id": "X3dUXIOWK"
+   },
+   {
+    "menge": "91 – 120",
+    "preis": "10,50 €",
+    "id": "PwoLnAyig"
+   },
+   {
+    "menge": "121 – 150",
+    "preis": "11,50 €",
+    "id": "pLb15KaKa"
+   },
+   {
+    "menge": "151 – 180",
+    "preis": "12,50 €",
+    "id": "Y66XNnv7X"
+   },
+   {
+    "menge": "181 – 210",
+    "preis": "13,50 €",
+    "id": "dk6N1jHxW"
+   },
+   {
+    "menge": "211 – 300",
+    "preis": "16,50 €",
+    "id": "XLhfbQNac"
+   },
+   {
+    "menge": "301 – 400",
+    "preis": "17,50 €",
+    "id": "oLMs8QgTo"
+   },
+   {
+    "menge": "ab 400",
+    "preis": "auf Anfrage",
+    "id": "KncabkGvI"
+   }
+  ],
+  "$control__slug": "leimbindung"
+ },
+ {
+  "$control__titel": "Laminate",
+  "$control__bereich": "Laminate",
+  "$control__spalte_menge": "Format",
+  "$control__spalte_preis": "Je Stück",
+  "$control__hinweis": "Von Visitenkartengröße bis A3.",
+  "$control__reihenfolge": "13",
+  "$control__staffel": [
+   {
+    "menge": "bis A4, einzeln",
+    "preis": "1,60 €",
+    "id": "q42SwDLET"
+   },
+   {
+    "menge": "bis A4, ab 10 Stück",
+    "preis": "1,50 €",
+    "id": "bK_QlIaqb"
+   },
+   {
+    "menge": "A3, einzeln",
+    "preis": "3,00 €",
+    "id": "AC8n9SHGq"
+   },
+   {
+    "menge": "A3, ab 10 Stück",
+    "preis": "2,90 €",
+    "id": "uqGQdcjWC"
+   }
+  ],
+  "$control__slug": "laminate"
+ }
+]

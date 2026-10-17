@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+# lokale Test- und Werkzeugordner
+.oeztest/
+.claude/
+node_modules/
+*.log

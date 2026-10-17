@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gutschein erstellen – FotoStube Hornig</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --rot: #C41E42; --gelb: #EBA800; --orange: #F28A55; --schwarz: #0E0D0C; --papier: #F6F1E9; --grau: #A39D94;
+    --font: "Familjen Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--schwarz); color: var(--papier); font-family: var(--font); }
+  .seite { max-width: 1240px; margin: 0 auto; padding: 40px 24px 60px; display: grid; grid-template-columns: 380px 1fr; gap: 48px; align-items: start; }
+  h1 { font-size: 40px; line-height: 1; letter-spacing: -0.03em; margin: 0 0 8px; }
+  .unter { color: var(--grau); margin: 0 0 28px; font-size: 15px; line-height: 1.5; }
+  label { display: block; font-size: 13px; font-weight: 600; color: var(--grau); margin: 18px 0 8px; }
+  input, select { width: 100%; font: inherit; font-size: 16px; color: var(--papier); background: rgba(246,241,233,0.06); border: 1px solid rgba(246,241,233,0.2); border-radius: 10px; padding: 12px 14px; outline: none; }
+  input:focus, select:focus { border-color: var(--gelb); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font: inherit; font-size: 14px; font-weight: 700; padding: 9px 12px; border-radius: 100px; border: 1.5px solid rgba(246,241,233,0.25); background: transparent; color: var(--papier); cursor: pointer; }
+  .chip.an { background: var(--gelb); border-color: var(--gelb); color: var(--schwarz); }
+  .reihe { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .nummer { display: flex; gap: 8px; align-items: center; }
+  .nummer code { flex: 1; font-family: var(--font); font-size: 18px; font-weight: 700; letter-spacing: 0.06em; padding: 12px 14px; border-radius: 10px; background: rgba(235,168,0,0.12); color: var(--gelb); }
+  .knopf { font: inherit; font-size: 15px; font-weight: 700; border: 0; border-radius: 100px; padding: 14px 22px; cursor: pointer; background: var(--papier); color: var(--schwarz); }
+  .knopf.leise { background: transparent; color: var(--papier); border: 1px solid rgba(246,241,233,0.3); padding: 12px 16px; font-size: 14px; }
+  .aktionen { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+  .hinweis { margin-top: 14px; font-size: 14px; line-height: 1.5; color: var(--grau); min-height: 21px; }
+  .hinweis.ok { color: var(--gelb); }
+  .vorschau-titel { font-size: 13px; font-weight: 600; color: var(--grau); margin: 0 0 12px; }
+
+  /* ---------- ticket (A5 landscape: 210 x 148 mm) ---------- */
+  .ticket {
+    --f: var(--gelb);
+    width: 100%; aspect-ratio: 210 / 148; position: relative; overflow: hidden;
+    display: grid; grid-template-columns: 34% 1fr; background: var(--f); color: var(--schwarz);
+    border-radius: 18px; box-shadow: 0 30px 60px rgba(0,0,0,0.45);
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+    container-type: inline-size;
+  }
+  .ticket .foto { position: relative; background: var(--schwarz); overflow: hidden; }
+  .ticket .foto .loecher { position: absolute; top: 0; bottom: 0; left: 1.6cqw; width: 1.9cqw;
+    background: repeating-linear-gradient(to bottom, transparent 0 1.3cqw, rgba(246,241,233,0.9) 1.3cqw 3.1cqw, transparent 3.1cqw 4.4cqw);
+    -webkit-mask: linear-gradient(#000, #000); border-radius: 0.3cqw; }
+  .ticket .foto .rand { position: absolute; top: 0; bottom: 0; right: 1.4cqw; writing-mode: vertical-rl; transform: rotate(180deg);
+    display: flex; align-items: center; justify-content: space-between; padding: 3cqw 0; font-size: 1.45cqw; font-weight: 700;
+    letter-spacing: 0.22em; text-transform: uppercase; color: var(--f); opacity: 0.85; white-space: nowrap; }
+  .ticket .foto .blende { position: absolute; left: 50%; top: 50%; width: 74%; aspect-ratio: 1; transform: translate(-44%, -50%); }
+  .ticket .foto .blende svg { width: 100%; height: 100%; display: block; overflow: visible; }
+  .ticket .foto .rahmenzahl { position: absolute; left: 50%; bottom: 3.4cqw; transform: translateX(-44%); font-size: 1.5cqw; font-weight: 700; letter-spacing: 0.2em; color: rgba(246,241,233,0.55); }
+  .ticket .perf { position: absolute; top: 0; bottom: 0; left: 34%; border-left: 0.35cqw dashed rgba(14,13,12,0.35); }
+  .ticket .kerbe { position: absolute; left: 34%; width: 4.4cqw; height: 4.4cqw; border-radius: 50%; background: var(--rot); transform: translate(-50%, -50%); }
+  .ticket .kerbe.oben { top: 0; } .ticket .kerbe.unten { top: 100%; }
+  .ticket .inhalt { padding: 5.2cqw 5.2cqw 4.4cqw 5.6cqw; display: flex; flex-direction: column; min-width: 0; }
+  .ticket .marke { font-weight: 700; font-size: 3.1cqw; letter-spacing: -0.02em; line-height: 1; }
+  .ticket .stufe { font-size: 2.1cqw; font-weight: 600; opacity: 0.7; margin-top: 0.8cqw; }
+  .ticket .betrag { font-weight: 700; font-size: 12.5cqw; letter-spacing: -0.045em; line-height: 0.9; margin-top: auto; white-space: nowrap; }
+  .ticket .wofuer { font-size: 2.2cqw; font-weight: 600; opacity: 0.75; margin-top: 1.2cqw; }
+  .ticket .fuer { margin-top: 2.6cqw; font-size: 2.3cqw; line-height: 1.35; min-height: 3.1cqw; }
+  .ticket .fuer b { font-weight: 700; }
+  .ticket .fuss { margin-top: auto; padding-top: 2.4cqw; border-top: 0.25cqw solid rgba(14,13,12,0.18); display: flex; justify-content: space-between; gap: 2cqw; align-items: end; }
+  .ticket .nr span { display: block; font-size: 1.6cqw; font-weight: 600; opacity: 0.6; text-transform: uppercase; letter-spacing: 0.12em; }
+  .ticket .nr strong { display: block; font-size: 3cqw; font-weight: 700; letter-spacing: 0.08em; color: var(--schwarz); margin-top: 0.6cqw; }
+  .ticket .gueltig { text-align: right; font-size: 1.75cqw; line-height: 1.45; font-weight: 500; }
+  .ticket .gueltig b { font-weight: 700; }
+  .ticket .adresse { font-size: 1.55cqw; opacity: 0.65; margin-top: 1.4cqw; font-weight: 500; }
+
+  @media (max-width: 900px) { .seite { grid-template-columns: 1fr; } }
+
+  @page { size: A5 landscape; margin: 0; }
+  @media print {
+    body { background: #fff; }
+    .seite { display: block; padding: 0; max-width: none; }
+    .formular, .vorschau-titel { display: none !important; }
+    .ticket { width: 210mm; height: 148mm; aspect-ratio: auto; border-radius: 0; box-shadow: none; }
+    .ticket .kerbe { background: #fff; }
+  }
+</style>
+</head>
+<body>
+<div class="seite">
+  <div class="formular">
+    <h1>Gutschein erstellen</h1>
+    <p class="unter">Betrag wählen, Daten eintragen, als PDF speichern. Danach die Zeile ins Gutscheinbuch kopieren.</p>
+
+    <label>Gutscheinnummer (automatisch)</label>
+    <div class="nummer"><code id="nr">–</code><button class="knopf leise" id="neu" type="button" title="Neue Nummer erzeugen">Neu</button></div>
+
+    <label>Betrag</label>
+    <div class="chips" id="chips"></div>
+    <div style="margin-top:8px"><input id="betrag" type="number" min="1" step="1" inputmode="numeric" placeholder="oder eigener Betrag in €"></div>
+
+    <div class="reihe">
+      <div><label for="fuer">Für (optional)</label><input id="fuer" placeholder="z. B. Anna"></div>
+      <div><label for="von">Von (optional)</label><input id="von" placeholder="z. B. Tom"></div>
+    </div>
+
+    <div class="reihe">
+      <div><label for="datum">Verkauft am</label><input id="datum" type="date"></div>
+      <div><label for="weg">Verkauft</label><select id="weg"><option>Online</option><option>Im Laden</option></select></div>
+    </div>
+
+    <label for="kaeufer">Käufer</label><input id="kaeufer" placeholder="Name">
+    <label for="mail">E-Mail des Käufers</label><input id="mail" type="email" placeholder="name@beispiel.de">
+    <label for="notiz">Notiz (z. B. Stripe-Zahlung)</label><input id="notiz" placeholder="optional">
+
+    <div class="aktionen">
+      <button class="knopf" id="pdf" type="button">Als PDF speichern</button>
+      <button class="knopf leise" id="kopie" type="button">Zeile fürs Gutscheinbuch kopieren</button>
+    </div>
+    <div class="hinweis" id="hinweis"></div>
+  </div>
+
+  <div>
+    <p class="vorschau-titel">Vorschau · A5 quer</p>
+    <div class="ticket" id="ticket">
+      <div class="foto" id="foto">
+        <div class="loecher"></div>
+        <div class="blende" id="blende"></div>
+        <div class="rand"><span>FotoStube Hornig</span><span id="t-rand">•  Gutschein 100 €  •</span><span>Göttingen</span></div>
+        <div class="rahmenzahl" id="t-rahmen">▸ 01A</div>
+      </div>
+      <div class="perf"></div><div class="kerbe oben"></div><div class="kerbe unten"></div>
+      <div class="inhalt">
+        <div class="marke">FotoStube Hornig</div>
+        <div class="stufe" id="t-stufe">Gutschein · Normal</div>
+        <div class="betrag" id="t-betrag">100&nbsp;€</div>
+        <div class="wofuer">einlösbar für alles im Haus</div>
+        <div class="fuer" id="t-fuer"></div>
+        <div class="fuss">
+          <div class="nr"><span>Gutscheinnummer</span><strong id="t-nr">–</strong></div>
+          <div class="gueltig">ausgestellt am <b id="t-datum">–</b><br>gültig bis <b id="t-bis">–</b></div>
+        </div>
+        <div class="adresse">Bühlstraße 38 · 37073 Göttingen · 0551&nbsp;57878 · fotostube-hornig.de</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // camera aperture (iris) as SVG: blades between consecutive extended polygon edges
+  function blende(farbe) {
+    const n = 7, R = 50, r = 17, cx = 50, cy = 50, rot = -0.35;
+    const P = Array.from({ length: n }, (_, i) => { const a = rot + (i * 2 * Math.PI) / n; return [cx + r * Math.cos(a), cy + r * Math.sin(a)]; });
+    // extend edge P[i]->P[i+1] beyond P[i+1] until it hits the outer circle
+    const hit = (A, B) => {
+      const dx = B[0] - A[0], dy = B[1] - A[1];
+      const fx = A[0] - cx, fy = A[1] - cy;
+      const a = dx * dx + dy * dy, b = 2 * (fx * dx + fy * dy), c = fx * fx + fy * fy - R * R;
+      const t = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+      return [A[0] + t * dx, A[1] + t * dy];
+    };
+    const Q = P.map((p, i) => hit(p, P[(i + 1) % n]));
+    const f = (v) => v.toFixed(2);
+    let blades = "";
+    for (let i = 0; i < n; i++) {
+      const a = P[(i + 1) % n], q1 = Q[i], q2 = Q[(i + 1) % n], b = P[(i + 2) % n];
+      const ton = i % 2 ? 0.8 : 1;
+      blades += `<path d="M${f(a[0])} ${f(a[1])} L${f(q1[0])} ${f(q1[1])} A${R} ${R} 0 0 1 ${f(q2[0])} ${f(q2[1])} L${f(b[0])} ${f(b[1])} Z" fill="${farbe}" fill-opacity="${ton}" stroke="#0E0D0C" stroke-width="0.7" stroke-linejoin="round"/>`;
+    }
+    const loch = P.map((p) => `${f(p[0])},${f(p[1])}`).join(" ");
+    return `<svg viewBox="-2 -2 104 104" aria-hidden="true">
+      <circle cx="50" cy="50" r="51.5" fill="none" stroke="${farbe}" stroke-opacity="0.35" stroke-width="0.8"/>
+      ${blades}
+      <polygon points="${loch}" fill="#0E0D0C"/>
+      <circle cx="46" cy="45" r="3.2" fill="#F6F1E9" fill-opacity="0.18"/>
+    </svg>`;
+  }
+  const STUFEN = [
+    { name: "Mini", key: "mini", farbe: "#F28A55", werte: [30, 40, 50, 60] },
+    { name: "Normal", key: "normal", farbe: "#EBA800", werte: [70, 80, 90, 100, 125] },
+    { name: "Deluxe", key: "deluxe", farbe: "#F6F1E9", werte: [150, 175, 200, 225, 250] },
+  ];
+  // no look-alike characters (0/O, 1/I/L)
+  const ZEICHEN = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
+  const $ = (id) => document.getElementById(id);
+  let betrag = 100, nummer = "";
+
+  function neueNummer() {
+    const z = new Uint32Array(8); crypto.getRandomValues(z);
+    const s = Array.from(z, (v) => ZEICHEN[v % ZEICHEN.length]).join("");
+    nummer = `FH-${s.slice(0, 4)}-${s.slice(4)}`;
+    render();
+  }
+  function stufeFuer(b) {
+    if (b >= 150) return STUFEN[2];
+    if (b >= 70) return STUFEN[1];
+    return STUFEN[0];
+  }
+  const fmtDatum = (d) => d.toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" });
+  const euro = (n) => `${String(n).replace(".", ",")} €`;
+  function verkauftAm() { const v = $("datum").value; return v ? new Date(v + "T12:00:00") : new Date(); }
+  // statutory period: 3 years, counted from the end of the year of purchase
+  function gueltigBis(d) { return new Date(d.getFullYear() + 3, 11, 31); }
+
+  function render() {
+    const st = stufeFuer(betrag);
+    $("ticket").style.setProperty("--f", st.farbe);
+    $("blende").innerHTML = blende(st.farbe);
+    $("t-rand").textContent = `•  Gutschein ${euro(betrag)}  •  ${st.name}  •`;
+    $("t-rahmen").textContent = `▸ ${nummer.slice(3, 7)}`;
+    $("t-stufe").textContent = `Gutschein · ${st.name}`;
+    $("t-betrag").textContent = euro(betrag);
+    $("t-nr").textContent = nummer; $("nr").textContent = nummer;
+    const d = verkauftAm();
+    $("t-datum").textContent = fmtDatum(d);
+    $("t-bis").textContent = fmtDatum(gueltigBis(d));
+    const fuer = $("fuer").value.trim(), von = $("von").value.trim();
+    $("t-fuer").innerHTML = [fuer && `für <b>${esc(fuer)}</b>`, von && `von <b>${esc(von)}</b>`].filter(Boolean).join(" &nbsp;·&nbsp; ");
+    document.querySelectorAll(".chip").forEach((c) => c.classList.toggle("an", Number(c.dataset.w) === betrag));
+    document.title = `Gutschein ${nummer} – FotoStube Hornig`;
+  }
+  const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  // amount chips
+  STUFEN.forEach((st) => st.werte.forEach((w) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "chip"; b.dataset.w = w; b.textContent = euro(w);
+    b.onclick = () => { betrag = w; $("betrag").value = ""; render(); };
+    $("chips").appendChild(b);
+  }));
+  $("betrag").oninput = (e) => { const v = Number(e.target.value); if (v > 0) { betrag = v; render(); } };
+  ["fuer", "von", "datum"].forEach((id) => $(id).addEventListener("input", render));
+  $("neu").onclick = () => { neueNummer(); hinweis(""); };
+  $("datum").value = new Date().toISOString().slice(0, 10);
+
+  function hinweis(t, ok) { const h = $("hinweis"); h.textContent = t; h.className = "hinweis" + (ok ? " ok" : ""); }
+
+  $("pdf").onclick = () => {
+    hinweis("Im Druckfenster „Als PDF sichern“ wählen. Danach die Zeile ins Gutscheinbuch kopieren!", true);
+    window.print();
+  };
+  $("kopie").onclick = async () => {
+    const d = verkauftAm();
+    // column order = Gutscheinbuch: Nummer | Verkauft am | Betrag | Stufe | Käufer | E-Mail | Verkauft | Notiz
+    const zeile = [nummer, fmtDatum(d), betrag, stufeFuer(betrag).name, $("kaeufer").value.trim(), $("mail").value.trim(), $("weg").value, $("notiz").value.trim()].join("\t");
+    try { await navigator.clipboard.writeText(zeile); hinweis("Kopiert. Im Gutscheinbuch in Spalte A der nächsten freien Zeile einfügen.", true); }
+    catch { prompt("Diese Zeile kopieren und ins Gutscheinbuch einfügen:", zeile); }
+  };
+
+  neueNummer();
+</script>
+</body>
+</html>
