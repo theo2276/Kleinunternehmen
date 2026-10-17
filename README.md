@@ -1,0 +1,15 @@
+# Kleinunternehmen – Website-Projekte
+
+Website-Neubauten für kleine Betriebe, gebaut mit Framer. Jeder Ordner ist ein Projekt mit Briefing, Bildmaterial und den Code-Komponenten, die in Framer laufen.
+
+| Ordner | Projekt |
+| --- | --- |
+| `copyteam/` | Copyshop copyteam, Göttingen (Code-Komponenten, Marke, Preis-Belege) |
+| `fotostube-hornig/` | Fotostudio FotoStube Hornig, Göttingen |
+| `goefoto/` | Fotoatelier Koch (goefoto.de) |
+| `grundmann/` | Bildmaterial Grundmann |
+| `kreuzberg-on-kultour/` | Konzertverein Kreuzberg on KulTour e. V. |
+| `nearmade/` | NearMade Studio |
+| `torben-visuals/` | Torben Visuals, Foto/Video Aurich |
+
+Privates Repository – enthält Kundenfotos und -daten.
