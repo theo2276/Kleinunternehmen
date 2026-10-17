@@ -1,0 +1,4 @@
+- [Framer-Template-Business](framer-template-business.md) — Premium-SaaS/KI-Templates für den Framer Marketplace; „Kernel“ zuerst, Studio-Name „Bevel“ (noch nicht bestätigt)
+- [Kernel-Tokens und Baustand](framer-kernel-token-system.md) — dunkle Farb-/Schrift-Tokens, Komponenten, Seiten, Audit-Stand 18.09.2026 (Notiz auf Englisch)
+- Framer-Technik für alle Projekte: ../../Allgemein/framer-native-over-code.md
+- Website-Standard: ../../Allgemein/feedback-website-standard.md

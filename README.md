@@ -11,5 +11,10 @@ Website-Neubauten für kleine Betriebe, gebaut mit Framer. Jeder Ordner ist ein 
 | `kreuzberg-on-kultour/` | Konzertverein Kreuzberg on KulTour e. V. |
 | `nearmade/` | NearMade Studio |
 | `torben-visuals/` | Torben Visuals, Foto/Video Aurich |
+| `team/` | Anleitung KI-Arbeitsweg und Gedächtnis-Vault |
+
+## Für das Team
+
+`team/` enthält die Anleitung **„KI-Arbeitsweg Website-Design“** und eine Kopie des Claude-Gedächtnisses (Vault „Claude Memory“, Stand 17.10.2026, ohne private Notizen). Neue Mitarbeiter fangen dort an.
 
 Privates Repository – enthält Kundenfotos und -daten.

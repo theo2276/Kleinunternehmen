@@ -1,0 +1,1 @@
+- [Website-Neubau Tischlerei Witthuhn](project-tischlerei-witthuhn-website.md) – Framer-Übungsprojekt, Stand und offene Punkte

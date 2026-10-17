@@ -1,0 +1,4 @@
+- [Corpus Marktstände](project-corpus-marktstaende.md) — Dienstleistungswebsite: Websites für Marktstände, Design in Figma, Build in Framer
+- [Layout 1 – Marktplane](project-layout-1-marktplane.md) — Framer-Neustart, eigenes Designsystem, nichts aus alten Projekten übernehmen
+- [Layout-Workflow](project-layout-workflow.md) — 21st.dev zuerst, dann Figma, dann fertige Framer-Bausteine statt Eigenbau
+- Website-Standard für alle Seiten: ../../Allgemein/feedback-website-standard.md
