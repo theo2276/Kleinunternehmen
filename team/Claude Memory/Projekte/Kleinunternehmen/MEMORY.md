@@ -1,9 +1,7 @@
 - [Website-Neubau goefoto.de](project-goefoto-website.md) – Fotoatelier Koch, Framer-Übungsprojekt im Stil „Kontaktbogen“, Stand und offene Punkte
 - [Website-Neubau elektro-zuehlke.de](project-zuehlke-website.md) – Elektro Zühlke, Framer-Übungsprojekt im Stil „Schaltschrank“, Stand und offene Punkte
-- [NearMade Studio – eigene Website](project-nearmade-website.md) – Briefing in ~/Kleinunternehmen/nearmade, Porträt freigegeben, Figma-Start + Framer-Site (unveröffentlicht), Hero mit Layout 4 im Browserfenster
 - [Design-Referenzen pro Projekt](feedback-design-referenzen-pro-projekt.md) – keine Muster aus früheren Neubauten übernehmen, Referenzen des Projekts nutzen
 - [Website-Neubau copyteam](project-copyteam-website.md) – Copyshop Göttingen, Framer-Übungsprojekt im Stil „Passer“, Stand und offene Punkte
-- [Website-Neubau Torben Visuals](project-torben-visuals-website.md) – Foto/Video Aurich, mögliches Kundenprojekt, Stand und offene Punkte
 - [Kein KI-Look](feedback-kein-ki-look.md) – Hero-Muster aus KI-Vorlagen meiden, echtes Material und eigene Stimme zuerst
 - [Website-Neubau FotoStube Hornig](project-fotostube-hornig-website.md) – Fotostudio Göttingen, Übungsprojekt, Referenz Echelon, Briefing fertig
 - [Kreuzberg-Netzwerk: 4 Folge-Websites](project-kreuzberg-netzwerk-websites.md) – Café Kreuzberg, Kreuzberg on KulTour, Musiker für Musiker, Kulturmarkt; Folgeauftrag aus copyteam

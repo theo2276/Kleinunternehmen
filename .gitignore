@@ -5,3 +5,7 @@
 .claude/
 node_modules/
 *.log
+
+# lokal, nicht im Repo
+nearmade/
+torben-visuals/

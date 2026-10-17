@@ -9,8 +9,6 @@ Website-Neubauten für kleine Betriebe, gebaut mit Framer. Jeder Ordner ist ein 
 | `goefoto/` | Fotoatelier Koch (goefoto.de) |
 | `grundmann/` | Bildmaterial Grundmann |
 | `kreuzberg-on-kultour/` | Konzertverein Kreuzberg on KulTour e. V. |
-| `nearmade/` | NearMade Studio |
-| `torben-visuals/` | Torben Visuals, Foto/Video Aurich |
 | `team/` | Anleitung KI-Arbeitsweg und Gedächtnis-Vault |
 
 ## Für das Team

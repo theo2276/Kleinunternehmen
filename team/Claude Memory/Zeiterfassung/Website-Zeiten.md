@@ -45,9 +45,7 @@ aktualisiert: 2026-10-17 11:03
 | 16.10.2026 21:14 | Kundenwebsites | Kulturmarkt Südniedersachsen | 0,1 h |
 | 16.10.2026 16:26 | Kundenwebsites | Briefing Kreuzberg on KulTour erstellen | 2,5 h |
 | 13.10.2026 16:26 | Kundenwebsites | Fotostudio-Zielgruppe recherchieren | 4,6 h |
-| 13.10.2026 09:51 | Kundenwebsites | Torben Visuals Website-Konzept | 0,3 h |
 | 12.10.2026 12:17 | Kundenwebsites | Copyteam neues Layout | 2,2 h |
-| 12.10.2026 12:13 | Kundenwebsites | NearMade Studio Website | 2,4 h |
 | 12.10.2026 08:10 | Kundenwebsites | Gartenbaum Göttingen website | 0,4 h |
 | 12.10.2026 08:09 | Kundenwebsites | Elektro Zuehlke contact page | 0,5 h |
 | 12.10.2026 07:37 | Kundenwebsites | Goefoto Redesign | 1,2 h |

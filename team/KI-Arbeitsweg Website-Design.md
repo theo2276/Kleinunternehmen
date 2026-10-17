@@ -113,6 +113,6 @@ Danach Schritt für Schritt weiter, wie oben beschrieben.
 - **copyteam** (Copyshop Göttingen): weit fortgeschritten, Inhaber will mit uns zusammenarbeiten.
 - **Folgeaufträge aus copyteam:** Kreuzberg on KulTour (läuft), Musiker für Musiker, Café Kreuzberg, Kulturmarkt Südniedersachsen.
 - **FotoStube Hornig:** dem Inhaber gezeigt, kam sehr gut an.
-- Weitere Übungs- und Kundenprojekte: goefoto, Elektro Zühlke, Torben Visuals, NearMade, Tischlerei Witthuhn, Delay Sports, Wochenmärkte.
+- Weitere Übungs- und Kundenprojekte: goefoto, Elektro Zühlke, Tischlerei Witthuhn, Delay Sports, Wochenmärkte.
 
 Details zu jedem Projekt stehen in `Claude Memory/Projekte/`.
