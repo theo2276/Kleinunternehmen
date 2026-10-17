@@ -53,7 +53,7 @@ export default function MFMInquiryForm(props: Props) {
 
     const safeEndpoint = endpoint.trim()
     const endpointAllowed =
-        (safeEndpoint.startsWith("/") && !safeEndpoint.startsWith("//")) ||
+        (safeEndpoint.startsWith("/") && !/^\/[\\/]/.test(safeEndpoint)) ||
         /^https:\/\//i.test(safeEndpoint)
 
     async function submit(event: FormEvent<HTMLFormElement>) {
