@@ -214,9 +214,14 @@ export default function MFMInquiryForm(props: Props) {
                                 </option>
                                 <option value="proberaum-suchen">Proberaum suchen</option>
                                 <option value="raum-anbieten">Proberaum / Unterrichtsraum anbieten</option>
+                                <option value="musiklehrer">Musiklehrer suchen / Unterricht anbieten</option>
                                 <option value="musiker">Musiker / Band / Projekt</option>
-                                <option value="auftritt">Auftritt</option>
-                                <option value="schwarzes-brett">Schwarzes Brett / Sonstiges</option>
+                                <option value="auftritt-suchen">Auftritt suchen</option>
+                                <option value="auftritt-anbieten">Auftrittsmöglichkeit anbieten</option>
+                                <option value="tontechnik-studio">Tontechnik / Studio</option>
+                                <option value="plakat-pr">Plakate / Werbemittel / PR</option>
+                                <option value="schwarzes-brett">Schwarzes Brett</option>
+                                <option value="sonstiges">Sonstiges</option>
                             </select>
                         </label>
 

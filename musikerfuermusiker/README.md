@@ -10,6 +10,7 @@ Stand: 17.10.2026. Die Website wird direkt im [eigenständigen Framer-Projekt](h
 - Desktop-, Tablet- und Handy-Breakpoints für alle 14 Seiten
 - Farbstyles für MFM-Orange, Tinte, Papier, Sand und Sekundärtext; Typografie mit Archivo
 - Interne Links zu realen Framer-Seiten; `noIndex` für alle Seiten
+- Abgleich mit der [bisherigen Website](https://musikerfuermusiker.jimdoweb.com/): Tontechnik/Studio und Plakate/PR sind im Vermittlungsüberblick ergänzt; das Schwarze Brett hat wieder fünf getrennte Rubriken; das Anfrageformular bietet die zugehörigen Auswahlmöglichkeiten
 
 Nur das Anfrageformular ist eine Code-Komponente. Ohne konfigurierten POST-Endpunkt verschickt es keine Daten. Impressum, Datenschutz und Bedingungen sind redaktionelle Entwürfe; für das Schwarze Brett existieren noch keine öffentlichen Einträge oder ein Moderationssystem.
 

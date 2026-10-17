@@ -14,6 +14,12 @@ Eine plakative, typografische MFM-Sprache: orange Fläche, dunkle Tinte, heller 
 
 Die Richtung kann weiterentwickelt werden. Der Nutzer hat die aktuelle Fassung noch nicht abgenommen. Änderungen bitte direkt im bestehenden Framer-Projekt vornehmen und vor allem Startseite, Navigation und Breakpoints zusammen prüfen.
 
+## Abgleich mit der bisherigen Website
+
+Die [bisherige MFM-Startseite](https://musikerfuermusiker.jimdoweb.com/) und das [Schwarze Brett](https://musikerfuermusiker.jimdoweb.com/startseite/schwarzes-brett/) wurden am 17.10.2026 inhaltlich abgeglichen. Im Canvas sind jetzt auch Tontechnik/Studio sowie Plakate, Werbemittel und PR im Vermittlungsüberblick sichtbar. Das Anfrageformular unterscheidet zusätzlich Musiklehrer, Bühnen-Suche und Bühnen-Angebot, Technik und PR. Das Schwarze Brett führt wieder fünf getrennte Rubriken: Instrumente, Equipment, Elektronik, Kontaktbörse und Bandvorstellung. Göttingen und Südniedersachsen sind in der Positionierung genannt.
+
+Die bisherige Seite bezeichnet die Hilfe als ehrenamtlich und kostenlos. Ob dies für den Neustart weiterhin zugesagt werden kann, muss vor einer öffentlichen Aussage bestätigt werden. Historische Termine, alte Vorstands-/Kontaktdaten, Spenden- und Steuerangaben sowie alte Rechtstexte wurden nicht als aktuelle Fakten übernommen.
+
 ## Funktion und Grenzen
 
 - `MFMInquiryForm.tsx` ist die einzige Code-Komponente im Canvas. Ihr POST-Endpunkt ist leer; kein Versand ohne bewusst gesetzten Empfänger.
